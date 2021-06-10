@@ -25,32 +25,21 @@ export const Navbar = () => {
                 </div>
             </div>
 
+            <ul className={`${styles.navbarUl} d-none d-xl-block d-lg-block`}>
+                <li>
+                    FEATURES
+                </li>
+                <li>
+                    UPCOMING
+                </li>
 
-            <div>
-                <ul className={styles.navbarUl}>
-                    <li>
-                        FEATURES
-                    </li>
-                    <li>
-                        FEATURES
-                    </li>
+                <li>
+                    CONTACT
+                </li>
 
-                    <li>
-                        FEATURES
-                    </li>
-
-                    <li>
-                        FEATURES
-                    </li>
-
-                    <li>
-                        FEATURES
-                    </li>
-
-                </ul>
-            </div>
+            </ul>
 
 
-           </div>
+        </div>
     )
 }
