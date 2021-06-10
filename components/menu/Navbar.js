@@ -10,8 +10,8 @@ export const Navbar = () => {
                     <Image
                         src="/assets/app-image.png"
                         alt="Picture of the author"
-                        width={60}
-                        height={60}
+                        width={50}
+                        height={50}
                     />
 
                 </div>
@@ -19,26 +19,27 @@ export const Navbar = () => {
                     <div className={styles.appName}>
                         Basa Bari
                     </div>
-                    <div className={styles.appMotto}>
-                        FIND YOUR HOME - Across the Cities
-                    </div>
+                    {/*<div className={styles.appMotto}>*/}
+                    {/*    FIND YOUR HOME - Across the Cities*/}
+                    {/*</div>*/}
                 </div>
             </div>
 
-            <ul className={`${styles.navbarUl} d-none d-xl-block d-lg-block`}>
-                <li>
-                    FEATURES
-                </li>
-                <li>
-                    UPCOMING
-                </li>
+            <div className={'d-none d-xl-block d-lg-block'} style={{paddingTop: '13px'}}>
+                <ul className={`${styles.navbarUl}`}>
+                    <li>
+                        FEATURES
+                    </li>
+                    <li>
+                        UPCOMING
+                    </li>
 
-                <li>
-                    CONTACT
-                </li>
+                    <li>
+                        CONTACT
+                    </li>
 
-            </ul>
-
+                </ul>
+            </div>
 
         </div>
     )
