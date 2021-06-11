@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import {Fragment} from "react";
 import {Navbar} from "../components/menu/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'react-responsive-modal/styles.css';
 
 function MyApp({ Component, pageProps }) {
   return (
