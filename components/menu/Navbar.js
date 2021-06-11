@@ -22,7 +22,7 @@ export const Navbar = () => {
                 </div>
                 <div className={styles.appNameAndAppMotto}>
                     <div className={styles.appName}>
-                        Basa Bari
+                        <a href={'#home'}>Basa Bari</a>
                     </div>
                     {/*<div className={styles.appMotto}>*/}
                     {/*    FIND YOUR HOME - Across the Cities*/}

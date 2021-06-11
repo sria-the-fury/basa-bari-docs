@@ -1,7 +1,11 @@
 .cursor-pointer{
     cursor: pointer;
 }
-
+.body{
+    font-family: "Courier New" !important;
+    margin:0 !important;
+    padding: 0 !important;
+}
 
 .slider-custom{
     font-family: "Courier New";
@@ -75,4 +79,12 @@
 
 .intro-text{
     font-family: "Courier New";
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+a:hover{
+    color: white !important;
 }

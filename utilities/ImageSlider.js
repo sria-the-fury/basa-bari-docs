@@ -7,6 +7,7 @@ const ImageSlider = () => {
         <ImageCompForSlider src={'/assets/carousel-images/image-1.jpg'}/>,
         <ImageCompForSlider src={'/assets/carousel-images/image-2.jpg'}/>,
         <ImageCompForSlider src={'/assets/carousel-images/image-3.jpg'}/>,
+        <ImageCompForSlider src={'/assets/carousel-images/image-4.jpg'}/>,
     ];
 
     const [x, setX] = useState(0);
@@ -35,7 +36,7 @@ const ImageSlider = () => {
             <div className='text-container'>
                 <div className='heading-center'>
                     <div className='container'>
-                        <section id='top' className='section'>
+                        <section id='home' className='section'>
                           <span className="brand-name">
                               <h2 className='white-text center-align brand-name-only' style={{marginTop:'5em', textAlign: 'center', fontWeight: "bold"}} >Basa Bari</h2>
                               <h5 className='white-text center-align brand-full-name' style={{textAlign: 'center'}}>FIND YOUR HOME - Across the Cities in Bangladesh.</h5>

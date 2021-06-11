@@ -2,9 +2,10 @@ import React from 'react';
 
 const Features = () => {
     return (
-        <div>
+        <div className={'container-fluid'}>
             <section id={'features'}>
-                <h2>features</h2>
+                <h3 style={{textAlign: 'right'}}>Features</h3>
+
             </section>
 
         </div>
