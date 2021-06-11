@@ -9,7 +9,7 @@ export const Navbar = () => {
 
     const [openSidebar, setSidebar] = useState(false);
     return(
-        <div className={styles.navbar}>
+        <div className={`${styles.navbar} fixed-top`}>
             <div className={styles.brandContainer}>
                 <div className={styles.appImage}>
                     <Image
@@ -32,9 +32,12 @@ export const Navbar = () => {
 
             <div className={'d-none d-xl-block d-lg-block'} style={{paddingTop: '13px'}}>
                 <ul className={`${styles.navbarUl}`}>
-                    <li>
-                        FEATURES
-                    </li>
+                    <a href={'#features'}>
+                        <li>
+                            FEATURES
+                        </li>
+                    </a>
+
                     <li>
                         UPCOMING
                     </li>

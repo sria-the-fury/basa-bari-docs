@@ -45,6 +45,17 @@
     font-family: "Courier New";
 
 }
+
+.navbarUl a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbarUl a:hover{
+    text-decoration: none;
+    color: white;
+}
+
 .navbarUl li{
     display: inline;
     padding: 3px;
