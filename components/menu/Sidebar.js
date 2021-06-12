@@ -33,16 +33,21 @@ const Sidebar = ({closeSidebar, openSidebar}) => {
                 </div>
 
                 <ul className={styles.sidebarUl}>
-                    <li>
-                        FEATURES
-                    </li>
+                    <a href={'#features'}>
+                        <li>
+                            FEATURES
+                        </li>
+                    </a>
+
                     <li>
                         UPCOMING
                     </li>
 
-                    <li>
-                        CONTACT
-                    </li>
+                    <a href={'#contact'}>
+                        <li>
+                            CONTACT
+                        </li>
+                    </a>
 
                 </ul>
             </div>

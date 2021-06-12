@@ -9,3 +9,18 @@
     text-align: center;
     font-size: 12px;
 }
+.pexelLink{
+    color: black !important;
+}
+
+.pexelLink:hover{
+    color: aqua !important;
+}
+
+.githubLink{
+    color: black !important;
+}
+
+.githubLink:hover{
+    color: aqua !important;
+}

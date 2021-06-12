@@ -42,9 +42,11 @@ export const Navbar = () => {
                         UPCOMING
                     </li>
 
-                    <li>
-                        CONTACT
-                    </li>
+                    <a href={'#contact'}>
+                        <li>
+                            CONTACT
+                        </li>
+                    </a>
 
                 </ul>
             </div>
