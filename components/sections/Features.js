@@ -9,10 +9,15 @@ const Features = () => {
                 <h3 style={{textAlign: 'right'}}>Features</h3>
                 <div className={"row"}>
                     <div className={"col-lg-4 col-md-4 col-sm-12"}>
-                        <Image src="/assets/features/phone-auth.jpg" height={585} width={270} alt="Phone Auth" className={styles.imageContainer}/>
+                        <div className={styles.imageAreaContainer}>
+                            <Image src="/assets/features/phone-auth.jpg" height={585} width={270} alt="Phone Auth" className={styles.imageContainer}/>
+                        </div>
+
                     </div>
                     <div className={"col-lg-4 col-md-4 col-sm-12"}>
-                        <Image src="/assets/features/otp.jpg" height={585} width={270} alt="Phone Auth OTP" className={styles.imageContainer}/>
+                        <div className={styles.imageAreaContainer}>
+                            <Image src="/assets/features/otp.jpg" height={585} width={270} alt="Phone Auth OTP" className={styles.imageContainer}/>
+                        </div>
                     </div>
 
                     <div className={"col-lg-4 col-md-4 col-sm-12"}>

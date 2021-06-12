@@ -4,7 +4,7 @@ import {East} from "@styled-icons/material";
 import Image from "next/image";
 import styles from "../../styles/Sidebar.module.css";
 
-const Sidebar = ({closeSidebar, openSidebar}) => {
+const Sidebar = ({closeSidebar, openSidebar, getSection, setSection}) => {
 
     return(
         <Modal open={openSidebar} onClose={() => closeSidebar(false)}
@@ -33,8 +33,8 @@ const Sidebar = ({closeSidebar, openSidebar}) => {
                 </div>
 
                 <ul className={styles.sidebarUl}>
-                    <a href={'#features'}>
-                        <li>
+                    <a href={'#features'} onClick={() => setSection('features')}>
+                        <li className={getSection === 'features' ? 'active-section' : ''}>
                             FEATURES
                         </li>
                     </a>
@@ -43,8 +43,8 @@ const Sidebar = ({closeSidebar, openSidebar}) => {
                         UPCOMING
                     </li>
 
-                    <a href={'#contact'}>
-                        <li>
+                    <a href={'#contact'} onClick={() => setSection('contact')}>
+                        <li className={getSection === 'contact' ? 'active-section' : ''}>
                             CONTACT
                         </li>
                     </a>

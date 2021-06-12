@@ -2,10 +2,11 @@ import React, {useState} from 'react';
 import styles from "../../styles/Navbar.module.css";
 import Image from "next/image";
 import {Menu, Close} from '@styled-icons/material';
-import Sidebar from "../menu/Sidebar"
-
+import Sidebar from "../menu/Sidebar";
 
 export const Navbar = () => {
+
+    const [getSection, setSection] = useState('home');
 
     const [openSidebar, setSidebar] = useState(false);
     return(
@@ -32,8 +33,8 @@ export const Navbar = () => {
 
             <div className={'d-none d-xl-block d-lg-block'} style={{paddingTop: '13px'}}>
                 <ul className={`${styles.navbarUl}`}>
-                    <a href={'#features'}>
-                        <li>
+                    <a href={'#features'} onClick={() => setSection('features')}>
+                        <li className={getSection === 'features' ? 'active-section' : ''}>
                             FEATURES
                         </li>
                     </a>
@@ -42,8 +43,8 @@ export const Navbar = () => {
                         UPCOMING
                     </li>
 
-                    <a href={'#contact'}>
-                        <li>
+                    <a href={'#contact'} onClick={() => setSection('contact')}>
+                        <li className={getSection === 'contact' ? 'active-section' : ''}>
                             CONTACT
                         </li>
                     </a>
@@ -58,7 +59,7 @@ export const Navbar = () => {
             </div>
 
 
-            <Sidebar closeSidebar={setSidebar} openSidebar={openSidebar}/>
+            <Sidebar closeSidebar={setSidebar} openSidebar={openSidebar} getSection={getSection} setSection={setSection}/>
 
         </div>
     )

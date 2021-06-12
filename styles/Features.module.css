@@ -1,6 +1,13 @@
 .imageContainer{
-border-radius: 10px;
-    align-self: center;
+    border-radius: 10px;
+}
+.imageAreaContainer{
+
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .paragraphText{
