@@ -9,14 +9,14 @@ const Contact = () => {
                 <h4 style={{textAlign: 'center'}}>Basa Bari</h4>
                 <div className={'container-fluid'}>
                     <div className={'row'}>
-                        <div className={'col-lg-6 col-md-6 col-sm-12'}>
-                            <div>photos are used here from
-                                <a href={"https://pexels.com"} target={"_blank"} rel={"noreferrer"} className={styles.pexelLink}> pexels.</a>
-                            </div>
+                        {/*<div className={'col-lg-6 col-md-6 col-sm-12'}>*/}
+                        {/*    <small>photos are used here from*/}
+                        {/*        <a href={"https://pexels.com"} target={"_blank"} rel={"noreferrer"} className={styles.pexelLink}> pexels.</a>*/}
+                        {/*    </small>*/}
 
-                        </div>
+                        {/*</div>*/}
                         <div className={'col-lg-6 col-md-6 col-sm-12'}>
-                            <div style={{textAlign: 'right'}}>
+                            <div style={{textAlign: 'center'}}>
                                 <a className={styles.githubLink} href={"https://github.com/sria-the-fury"} rel={"noopener"} target={"_blank"}>
                                     <Github size={20} color={'black'}/> sria-the-fury
                                 </a>
@@ -25,6 +25,9 @@ const Contact = () => {
                         </div>
 
                     </div>
+                </div>
+                <div className={styles.bottomCopyRight}>photos are used here from
+                    <a href={"https://pexels.com"} target={"_blank"} rel={"noreferrer"} className={styles.pexelLink}> pexels.</a>
                 </div>
                 <div className={styles.bottomCopyRight}>©Basa Bari 2021</div>
             </section>
