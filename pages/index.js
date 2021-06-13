@@ -13,6 +13,8 @@ export default function Home() {
                 <title>Basa Bari | FIND YOUR HOME - Across the Cities.</title>
                 <meta name="description" content="Basa Bari is an Android and iOS Application for finding rental home across cities in Bangladesh." />
                 <link rel="icon" href="/favicon.ico" />
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://basabari.oasisoneiric.tech/"/>
                 <meta property="og:title" content={'Basa Bari | FIND YOUR HOME - Across the Cities.'}/>
                 <meta property="og:description" content={'Basa Bari is an Android and iOS Application for finding rental home across cities in Bangladesh.'}/>
                 <meta property="og:image" content={'/assets/app-image.png'}/>
