@@ -6,6 +6,7 @@ import Upcoming from "../components/sections/Upcoming";
 import Contact from "../components/sections/Contact";
 
 export default function Home() {
+
     return (
         <div>
             <Head>
@@ -14,7 +15,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:title" content={'Basa Bari | FIND YOUR HOME - Across the Cities.'}/>
                 <meta property="og:description" content={'Basa Bari is an Android and iOS Application for finding rental home across cities in Bangladesh.'}/>
-                <meta property="og:image" content={'/assets/app-image-png'}/>
+                <meta property="og:image" content={'/assets/app-image.png'}/>
             </Head>
             <Intro/>
             <Features/>
