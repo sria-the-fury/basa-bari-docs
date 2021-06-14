@@ -15,14 +15,14 @@ const Contact = () => {
                         {/*    </small>*/}
 
                         {/*</div>*/}
-                        <div className={'col-lg-6 col-md-6 col-sm-12'}>
-                            <div style={{textAlign: 'center'}}>
-                                <a className={styles.githubLink} href={"https://github.com/sria-the-fury"} rel={"noopener"} target={"_blank"}>
-                                    <Github size={20} color={'black'}/> sria-the-fury
-                                </a>
-                            </div>
-
+                        {/*<div className={'col-lg-6 col-md-6 col-sm-12'}>*/}
+                        <div style={{textAlign: 'center'}}>
+                            <a className={styles.githubLink} href={"https://github.com/sria-the-fury"} rel={"noopener"} target={"_blank"}>
+                                <Github size={20} color={'black'}/> sria-the-fury
+                            </a>
                         </div>
+
+                        {/*</div>*/}
 
                     </div>
                 </div>

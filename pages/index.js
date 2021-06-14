@@ -4,6 +4,7 @@ import Intro from "../components/sections/Intro";
 import Features from "../components/sections/Features";
 import Upcoming from "../components/sections/Upcoming";
 import Contact from "../components/sections/Contact";
+import { Parallax } from 'react-parallax';
 
 export default function Home() {
 
@@ -21,6 +22,9 @@ export default function Home() {
             </Head>
             <Intro/>
             <Features/>
+            <Parallax blur={0} bgImage="/assets/carousel-images/image-3.jpg" bgImageAlt="the cat" strength={500}>
+                <div style={{ height: '200px' }} />
+            </Parallax>
             <Upcoming/>
             <Contact/>
 
