@@ -1,0 +1,38 @@
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.card{
+    background-color: #5dce98;
+    border-radius: 10px;
+    height: 350px;
+    width: 250px;
+    font-family: "Courier New";
+    padding: 5px;
+    overflow: auto;
+}
+.cardTitle{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+}
+.cardIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.cardText{
+    color: white;
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.card::-webkit-scrollbar {
+    display: none;
+}

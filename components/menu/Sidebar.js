@@ -39,9 +39,11 @@ const Sidebar = ({closeSidebar, openSidebar, getSection, setSection}) => {
                         </li>
                     </a>
 
-                    <li>
-                        UPCOMING
-                    </li>
+                    <a href={'#upcoming'} onClick={() => setSection('upcoming')}>
+                        <li className={getSection === 'upcoming' ? 'active-section' : ''}>
+                            UPCOMING
+                        </li>
+                    </a>
 
                     <a href={'#contact'} onClick={() => setSection('contact')}>
                         <li className={getSection === 'contact' ? 'active-section' : ''}>
