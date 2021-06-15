@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from "../../styles/Features.module.css";
 import { Parallax } from 'react-parallax';
+import Separator from "../../utilities/Separator";
 
 const Features = () => {
     return (
@@ -75,6 +76,44 @@ const Features = () => {
 
 
                 </div>
+            </div>
+
+            <Separator/>
+
+            <div className={'container-fluid'}>
+                <div className="row" style={{backgroundColor: 'lavender'}}>
+                    <div className={"col-lg-4 col-md-4 col-sm-12"}>
+                        <div className={styles.imageAreaContainer}>
+                            <Image src="/assets/features/profile.jpg" height={585} width={270} alt="Phone Auth" className={styles.imageContainer}/>
+                        </div>
+
+                    </div>
+                    <div className={"col-lg-4 col-md-4 col-sm-12"}>
+                        <div className={styles.imageAreaContainer}>
+                            <Image src="/assets/features/profile-name-update.jpg" height={585} width={270} alt="Phone Auth OTP" className={styles.imageContainer}/>
+                        </div>
+                    </div>
+
+
+                    <div className={"col-lg-4 col-md-4 col-sm-12"}>
+                        <div className={styles.featuresHeaders}>
+                            User's Profile
+                        </div>
+                        <hr/>
+                        <div className={styles.paragraphText}>
+                            <p>
+                                User's profile holds the information of the current user. Such as user's display photo, display name, and user's phone number what s/he has used while sign in process.
+                            </p>
+                            <p>
+                                User can change his/her display photo as well as his/her name which will visible to other users.
+                            </p>
+                            <p>
+                                Notification and Online status can be controlled from profile section and all other settings will be available for the user.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </section>
