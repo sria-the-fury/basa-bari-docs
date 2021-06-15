@@ -96,3 +96,12 @@ a:hover{
 .not-active-section{
     border-radius: 3px;
 }
+
+.under-developed{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
