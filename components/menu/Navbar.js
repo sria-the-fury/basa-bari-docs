@@ -23,7 +23,7 @@ export const Navbar = () => {
                 </div>
                 <div className={styles.appNameAndAppMotto}>
                     <div className={styles.appName}>
-                        <a href={'#home'}>Basa Bari</a>
+                        <a href={'#home'} rel={'noopener'} onClick={() => setSection('home')}>Basa Bari</a>
                     </div>
                     {/*<div className={styles.appMotto}>*/}
                     {/*    FIND YOUR HOME - Across the Cities*/}

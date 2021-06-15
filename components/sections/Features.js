@@ -28,11 +28,9 @@ const Features = () => {
                         <hr/>
                         <div className={styles.paragraphText}>
                             <p>
-                                Creating an account by email is need more time, and also you have to provide password. After then you have to verify your email to get an authenticated account.
-                            </p>
+                                Creating an account by email is need more time, and also you have to provide a password. After then you have to verify your email to get an authenticated account.</p>
                             <p>
-                                But it is easy to create and sign in your account by just your cell phone number. No need to give any password, no need to remember your password. Just put the OTP you will get from the sms by your phone number.
-                            </p>
+                                But it is easy to create and sign in to your account by just your cell phone number. No need to give any password, no need to remember your password. Just put the OTP you will get from the SMS by your phone number.</p>
                         </div>
                     </div>
 
@@ -54,11 +52,9 @@ const Features = () => {
                         <hr/>
                         <div className={styles.paragraphText}>
                             <p>
-                                We don't want so much data about you. Even we don't steal your information from your phone. But by creating and setting up profile in  "Basa Bari" your phone number, name and display photo will be visible to others people who have already created their account unless you don't message them or don't publish any listing for you building.
-                            </p>
+                                We don't want so much data about you. Even we don't steal your information from your phone. But by creating and setting up a profile in "Basa Bari" your phone number, name, and display photo will be visible to other people who have already created their account unless you don't message them or don't publish any listing for your building.</p>
                             <p>
-                                After authenticating your account, you can easily set your profile. Upload your display photo, your name and most important your role as "Tenant" or "Landlord".
-                            </p>
+                                After authenticating your account, you can easily set your profile. Upload your display photo, your name, and most important your role as "Tenant" or "Landlord".</p>
                             <p>
                                 If you just want to see the rental home ads, you can simply select your role as "Tenant" or Add your building listing for getting Tenant you can choose the role as "Landlord".
                             </p>
